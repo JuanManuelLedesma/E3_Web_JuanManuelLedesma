@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Inconsolata;
+    src: url(./fonts/Inconsolata/Inconsolata_Condensed-Bold.ttf);
+}
+@font-face {
+    font-family: Inconsolata-Light;
+    src: url(./fonts/Inconsolata/Inconsolata-Light.ttf);
+}
+
+.flexbox-space-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+body{
+    background: rgb(63,94,251);
+    background: linear-gradient(180deg, rgba(63,94,251,1) 0%, rgba(255,207,90,1) 78%, rgba(252,70,107,1) 100%);
+    font-family: 'Inconsolata';
+    /* text-transform: uppercase; */
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 40%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.flexbox-space-around img{
+    width: 12%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.info_contenedor{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 5%;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgb(0, 0, 0, 0.3);
+    border-width: 2px;
+}
+
+.info_jml{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.info_jml p {
+    width: 45%;
+    font-size: 1.7em;
+    margin-top: 0px;
+    font-family: Inconsolata-Light;
+}
+
+
+button{
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 100px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Inconsolata;
+    font-size: 1.3em;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.info_foto{
+    display: flex;
+    justify-content: center;
+}
+
+/* .info_foto img {
+    width: 50%
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px #aaa;
+
+    ME GUSTARÍA SABER POR QUÉ SI LO HAGO ASÍ NO ME LO TOMA. TUVE QUE HACER UNA CLASE APARTE SOLO PARA LA FOTO. MUCHAS GRACIAS.
+} */
+
+.foto_perfil{
+    border-radius: 200px;
+    box-shadow: 4px 4px 8px 4px rgb(0, 0, 0);
+    width: 55%;
+}
+
+.info_empresa{
+    font-size: 2em;
+    justify-content: center;
+    padding: 20px 25% 20px 25%;
+    font-family: Inconsolata-Light;
+}
+
+
+@media (max-width: 1024px){
+    nav{
+        width: 50%;
+    }
+}
