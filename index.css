@@ -117,6 +117,123 @@ button:hover{
     font-family: Inconsolata-Light;
 }
 
+.que-hacemos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgb(0, 0, 0, 0.3);
+    border-width: 2px;
+    font-family: Inconsolata-Light
+}
+
+.tu-web{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.tu-web h2{
+    font-size: 3.3em;
+    font-family: Inconsolata
+}
+
+.tu-web p{
+    font-size: 1.7em;
+}
+
+.contenedor-que-hacemos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.grupo-1 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3em;
+    box-shadow: 1px 1px 15px 5px #000000;
+    border-radius: 10px;
+}
+
+.grupo-1 p{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.grupo-1 i{
+    font-size: 6em;
+    margin-top: 15%;
+}
+
+.redes{
+    margin-left: 20%;
+}
+
+.redes i{
+    font-size: 4.5em;
+    width: 35%;
+    text-align: center;
+}
+
+.contenedor-creacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Inconsolata-Light;
+    padding: 5%;
+    
+}
+
+.contenedor-creacion h2{
+    font-size: 3.3em;
+    font-family: Inconsolata
+}
+
+.contenedor-creacion p{
+    font-size: 1.7em;
+}
+.contenedor-numeros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 5%;
+    
+}
+
+.contenedor-numeros i{
+    font-size: 4em;
+    text-align: center;
+    width: 100%;
+
+}
+.contenedor-numeros p{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.contenedor-numeros h3{
+    font-size: 2em;
+    text-align: center;
+}
+
+.info-creacion {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
 
 @media (max-width: 1024px){
     nav{
