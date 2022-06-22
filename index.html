@@ -1,5 +1,8 @@
 <html>
-<head>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="./ASSETS/FONTAWESOME/css/all.css">
     <title>E2-Web Juan Manuel Ledesma</title>
@@ -9,30 +12,34 @@
         <img src="./img/LOGO.png" alt="Logo JML">
         <nav>
             <ul class="flexbox-space-around">
-                <li><a href="http://">Inicio</a></li>
-                <li><a href="http://">Servicios</a></li>
-                <li><a href="http://">Clientes</a></li>
-                <li><a href="http://">Contacto</a></li>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Info">Información</a></li>
+                <li><a href="#Servicios">Servicios</a></li>
+                <li><a href="#Workflow">Wrokflow</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <a href="https://www.facebook.com/jmlaudiovisuales" target="_blank"><i class="fa-brands fa-facebook" ></i></i></a>
+                <a href="https://www.instagram.com/jmlaudiovisuales/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </ul>
         </nav>
     </header>
-        <section class="info_contenedor">
+        <section class="info_contenedor" id="Inicio">
             <div class="info_jml">
                 <h1>Juan Manuel Ledesma</h1>
                 <p>Diseñador de Imagen y Sonido, graduado de la FADU. Programador Web especializado en HTML y CSS</p>
                 <div>
-                    <button>CONTACTAR</button>
-                    <button>MÁS INFO</button>
+                    <a href="#contacto"><button name="contactar">CONTACTAR</button></a>
+                    <a href="#Info"><button name="info">MÁS INFO</button></a>
                 </div>
             </div>
             <div class="info_foto">
                 <img class="foto_perfil" src="./img/JML.jpg" alt="Foto de perfil JML">
             </div>
         </section>
-        <section class="info_empresa">
+        <section class="info_empresa" id="Info">
             <p>Trabajos con integración de diseño web y audiovisual. Compromiso total con tus proyectos personales o empresariales. Años de experiencia al servicio de nuestros clientes. </p>
         </section>
-        <section class="que-hacemos">
+        <section class="que-hacemos" id="Servicios">
             <div class="tu-web">
                 <h2>DISEÑAMOS TU WEB</h2>
                 <p>Llevando la excelencia desde el pequeño emprendedor a las grandes compañías.</p>
@@ -57,9 +64,9 @@
                 </div>
             </div>
         </section>
-        <section class="contenedor-creacion">
+        <section class="contenedor-creacion" id="Workflow">
             <div class="info-creacion">
-                <h2>¿CÓMO TRABAJAMOS?</h2>
+                <h2>WORKFLOW</h2>
                 <p>Le dedicamos toda la atención a tu trabajo, por eso tenemos este plan armado.</p>
             </div>
             <div class="contenedor-numeros">
@@ -85,5 +92,40 @@
                 </div>
             </div>
         </section>
+        <section class="contenedor-videos" id="videos">
+            <div class="info-videos">
+                <h2>VIDEOS</h2>
+                <p>Estos son algunos de nuestros trabajos Audiovisuales.</p>
+            </div>
+            
+        </section>
+        <section class="grid-video">
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/512537021?h=9331712931&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/432208174?h=fb8f03326c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="The Flattening of Drops // Aplastamiento de las Gotas (2018)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/510805413?h=1a420d2f8b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="The Man Who Loved // El Hombre Que Quer&amp;iacute;a (2020)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/512532045?h=0b860aa617&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Poem For A Girl Scarfed By Bears // Poema Para Una Ni&amp;ntilde;a Devorada Por Osos (2)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </section>
+        <section class="contenedor-contacto" id="contacto">
+            <div class="mini-contacto">
+                <h2>CONTACTO</h2>
+                <address>
+                <div class="contacto">
+                    <i class="fa-solid fa-location-pin"></i><a href="https://goo.gl/maps/tiridviXtidxQEzC9" target="_blank">Parque las Heras</a>
+                </div>
+                <div class="contacto">
+                    <i class="fa-solid fa-envelope"></i><a href="mailto:email@email.com">email@email.com</a>
+                </div>
+                <div class="contacto">
+                    <i class="fa-solid fa-phone"></i><a href="tel:+54911111111">+54911111111</a>
+                </div>
+                </address>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13139.20607753172!2d-58.4088319!3d-34.5838884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2704541ae686099a!2sParque%20Las%20Heras!5e0!3m2!1ses-419!2sar!4v1655850783219!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>       
+        <footer class="footer">
+            <img src="./img/LOGO.png" alt="Logo JML">
+        </footer>
 </body>
 </html>
